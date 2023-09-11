@@ -1,7 +1,7 @@
 
 from PIL import Image
 import numpy as np
-
+#main
 def scramble_pixels(image, a):
     np.random.seed(a)
     width, height = image.size
